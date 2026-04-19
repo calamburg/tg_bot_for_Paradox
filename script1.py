@@ -37,7 +37,7 @@ def start_keyboard():
 
 # ================= СТАРТ =================
 
-photo = FSInputFile("C:/Users/yagga/Downloads/paradox.jpg")
+photo = FSInputFile("paradox.jpg")
 
 @dp.message(CommandStart())
 async def start_handler(message: Message):
