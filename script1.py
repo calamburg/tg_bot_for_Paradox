@@ -11,7 +11,7 @@ from aiogram.types import FSInputFile
 
 # ================= НАЛАШТУВАННЯ =================
 load_dotenv()
-bot = Bot(os.getenv("TOKEN"))
+bot = Bot(os.getenv("BOT_TOKEN"))
 ADMIN_ID = 6124047244  # Замініть на ваш Telegram ID
 CHANNEL_LINK = "https://t.me/+-0rRbkJCKGgzNzhi"  # Посилання на ваш канал
 photo = FSInputFile("paradox.jpg")  # Посилання на фото або file_id
