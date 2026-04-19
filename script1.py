@@ -14,7 +14,7 @@ load_dotenv()
 bot = Bot(os.getenv("TOKEN"))
 ADMIN_ID = 6124047244  # Замініть на ваш Telegram ID
 CHANNEL_LINK = "https://t.me/+-0rRbkJCKGgzNzhi"  # Посилання на ваш канал
-photo = FSInputFile("C:/Users/yagga/Downloads/paradox.jpg")  # Посилання на фото або file_id
+photo = FSInputFile("paradox.jpg")  # Посилання на фото або file_id
 
 dp = Dispatcher(storage=MemoryStorage())
 
